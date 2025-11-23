@@ -1,0 +1,5 @@
+{
+  "categorization": "Categorize this email into one of: Important, Newsletter, Spam, To-Do, Meeting, Invoice. Reply in plain text with the single category.",
+  "action_extraction": "Extract action items from the email. Respond in JSON array with objects: {\"task\": <task text>, \"deadline\": <ISO date or empty>}.",
+  "auto_reply": "Write a polite, concise reply in the user's tone. If the email is a meeting request, propose 2-3 time slots and ask for agenda. Keep it professional and under 150 words.\nReturn the result as: {\"subject\": <subject>, \"body\": <body>}"
+}
